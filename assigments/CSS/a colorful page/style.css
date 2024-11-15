@@ -1,0 +1,27 @@
+body{
+    background-image: url(somthing.jpg);
+    background-size: cover;
+    
+}
+h1{
+    color: rgb(184, 213, 231);
+    background-color: black;
+}
+    
+li{
+    color: whitesmoke;
+    background-color: black;
+    opacity:0.5;
+}
+
+.p1{
+    color: white;
+    background-color: black;
+    opacity: 0.8;
+}
+.p2{
+    color: lightcyan;
+    background-color: black;
+    opacity: 0.8;
+   
+}

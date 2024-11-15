@@ -1,0 +1,21 @@
+h1 {
+    color: blue;
+    font-size: 36px;
+    background-color: aquamarine;
+}
+h2 {
+    color: green;
+    font-size: 30px;
+    background-color: black;
+}
+h3{
+    background-color: blanchedalmond;
+    font-size: x-large;
+    color: wheat;
+
+}
+p {
+    font-family: Arial, sans-serif;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   color: bisque;
+}
