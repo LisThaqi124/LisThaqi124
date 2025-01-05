@@ -1,0 +1,17 @@
+.table{
+    background-color: lightgreen;
+    font-size: xx-large;
+    color: white;
+   
+}
+.th{
+    color: black;
+    
+}
+tr:nth-child(odd){
+    background-color: darkgreen;
+}
+td{
+    border: collapse;
+    text-decoration: none;
+}
