@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="finalproject.css">
+</head>
+
+<body>
+    <aside>
+        <div id="sidebar">
+            <div class="flex">
+                <h3>CP</h3>
+                <h3>COOL PAGE</h3>
+            </div>
+            <hr>
+            <div class="avatar">
+                <img src="images/avatar.jpg" width="30px">
+                <h4 style="color: white;">John Doe</h4>
+            </div>
+            <hr>
+            <div class="dashboards">
+                <ul>
+                    <li id="dashboard"><button onclick="toggle('collapsible1')" class="dashboard dash"><img
+                                src="images/dashboard.png" width="30px">Dashboard<img
+                                src="images/211687_down_arrow_icon.png" width="15px" alt=""></button></li>
+                    <ul id="collapsible1" hidden>
+                        <li class="JS"><span class="gap">Pr</span>Pricing</li>
+                        <li class="JS"><span class="gap">RS</span>RLT Support</li>
+                        <li class="JS"><span class="gap">Tn</span>Timline</li>
+                        <li class="JS"><span class="gap">LP</span>Login page</li>
+                        <li class="JS"><span class="gap">RP</span>Register page</li>
+                    </ul>
+                    <li id="page"><button onclick="toggle('collapsible2')"><img src="images/pages.png"
+                                width="30px">Pages<img src="images/211687_down_arrow_icon.png" width="15px"
+                                alt=""></button>
+                    <li>
+                        <ul id="collapsible2" hidden>
+                            <li class="JS"><span class="gap">Pr</span>Pricing</li>
+                            <li class="JS"><span class="gap">RS</span>RLT Support</li>
+                            <li class="JS"><span class="gap">Tn</span>Timline</li>
+                            <li class="JS"><span class="gap">LP</span>Login page</li>
+                            <li class="JS"><span class="gap">RP</span>Register page</li>
+                        </ul>
+                    <li class="compnets"><button onclick="toggle('collapsible3')"><img src="images/compnets.png"
+                                width="30px">Componets<img src="images/211687_down_arrow_icon.png" width="15px"
+                                alt=""></button></li>
+                    <ul id="collapsible3" hidden>
+                        <li class="JS"><span class="gap">Pr</span>Pricing</li>
+                        <li class="JS"><span class="gap">RS</span>RLT Support</li>
+                        <li class="JS"><span class="gap">Tn</span>Timline</li>
+                        <li class="JS"><span class="gap">LP</span>Login page</li>
+                        <li class="JS"><span class="gap">RP</span>Register page</li>
+                    </ul>
+                    <li class="forms"><button onclick="toggle('collapsible4')"><img src="images/forms.png"
+                                width="30px">Forms<img src="images/211687_down_arrow_icon.png" width="15px"
+                                alt=""></button></li>
+                    <ul id="collapsible4" hidden>
+                        <li class="JS"><span class="gap">Pr</span>Pricing</li>
+                        <li class="JS"><span class="gap">RS</span>RLT Support</li>
+                        <li class="JS"><span class="gap">Tn</span>Timline</li>
+                        <li class="JS"><span class="gap">LP</span>Login page</li>
+                        <li class="JS"><span class="gap">RP</span>Register page</li>
+                    </ul>
+                    <li class="tabels"><button onclick="toggle('collapsible5')"><img src="images/tabels.png"
+                                width="30pxpx">Tabels<img src="images/211687_down_arrow_icon.png" width="15px"
+                                alt=""></button></li>
+                    <ul id="collapsible5" hidden>
+                        <li class="JS"><span class="gap">Pr</span>Pricing</li>
+                        <li class="JS"><span class="gap">RS</span>RLT Support</li>
+                        <li class="JS"><span class="gap">Tn</span>Timline</li>
+                        <li class="JS"><span class="gap">LP</span>Login page</li>
+                        <li class="JS"><span class="gap">RP</span>Register page</li>
+                    </ul>
+                    <li class="location"><button onclick="toggle('collapsible6')"><img src="images/location.png"
+                                width="30pxpx">Location<img src="images/211687_down_arrow_icon.png" width="15px"
+                                alt=""></button></li>
+                    <ul id="collapsible6" hidden>
+                        <li class="JS"><span class="gap">Pr</span>Pricing</li>
+                        <li class="JS"><span class="gap">RS</span>RLT Support</li>
+                        <li class="JS"><span class="gap">Tn</span>Timline</li>
+                        <li class="JS"><span class="gap">LP</span>Login page</li>
+                        <li class="JS"><span class="gap">RP</span>Register page</li>
+                    </ul>
+                    <li class="widgdets"><button onclick="toggle('collapsible7')"><img src="images/widgdets.png"
+                                width="30px">Widgdets<img src="images/211687_down_arrow_icon.png" width="15px"
+                                alt=""></button></li>
+                    <ul id="collapsible7" hidden>
+                        <li class="JS"><span class="gap">Pr</span>Pricing</li>
+                        <li class="JS"><span class="gap">RS</span>RLT Support</li>
+                        <li class="JS"><span class="gap">Tn</span>Timline</li>
+                        <li class="JS"><span class="gap">LP</span>Login page</li>
+                        <li class="JS"><span class="gap">RP</span>Register page</li>
+                    </ul>
+                    <li class="charts"><button onclick="toggle('collapsible8')"><img src="images/charts.png"
+                                width="30px">Charts<img src="images/211687_down_arrow_icon.png" width="15px"
+                                alt=""></button></li>
+                    <ul id="collapsible8" hidden>
+                        <li class="JS"><span class="gap">Pr</span>Pricing</li>
+                        <li class="JS"><span class="gap">RS</span>RLT Support</li>
+                        <li class="JS"><span class="gap">Tn</span>Timline</li>
+                        <li class="JS"><span class="gap">LP</span>Login page</li>
+                        <li class="JS"><span class="gap">RP</span>Register page</li>
+                    </ul>
+                    <li class="calander"><button onclick="toggle('collapsible9')"><img src="images/calander.png"
+                                width="30px">Calander<img src="images/211687_down_arrow_icon.png" width="15px"
+                                alt=""></button>
+                    </li>
+                    <ul id="collapsible9" hidden>
+                        <li class="JS"><span class="gap">Pr</span>Pricing</li>
+                        <li class="JS"><span class="gap">RS</span>RLT Support</li>
+                        <li class="JS"><span class="gap">Tn</span>Timline</li>
+                        <li class="JS"><span class="gap">LP</span>Login page</li>
+                        <li class="JS"><span class="gap">RP</span>Register page</li>
+                    </ul>
+                </ul>
+            </div>
+        </div>
+    </aside>
+
+    <main>
+        <header>
+            <div class="header-left">
+                <div>
+                    <div onclick="toggle('collapse_setting')" id="setting_js">
+                        <img src="images/2849830_multimedia_options_setting_settings_gear_icon.png" alt="">
+                    </div>
+                    <div hidden id="collapse_setting" class="filters-js">
+                        <div>
+                            <h1>Sidebar Filters</h1>
+                            <ul class="js-ul">
+                                <li><button id="color-option" data-color="#9c27b0"
+                                        onclick="changeSidebarColorZero()">🟣</button></li>
+                                <li><button id="color-option" data-color="#2196f3"
+                                        onclick="changeSidebarColorOne()">🔵</button></li>
+                                <li><button id="color-option" data-color="#4caf50"
+                                        onclick="changeSidebarColorTwo()">🟢</button></li>
+                                <li><button id="color-option" data-color="#ff9800"
+                                        onclick="changeSidebarColorThree()">🟠</button></li>
+                                <li><button id="color-option" data-color="#f44336"
+                                        onclick="changeSidebarColorFour()">🔴</button></li>
+                            </ul>
+                        </div>
+                        <hr>
+                        <div>
+                            <h1>Sidebar backround</h1>
+                            <ul class="js-ul">
+                                <li><button id="color-option" data-color="#ffffff"
+                                    onclick="changeSidebarColorFive()">⚪</button></li>
+                                <li><button id="color-option" data-color="#000000"
+                                    onclick="changeSidebarColorSix()">⚫</button></li>
+                            </ul>
+                        </div>
+                        <hr>
+                        <div id="sidebar-image">
+                            <h1>Sidebar image</h1> <input id="check" type="checkbox" onclick="ifWantSideBar()">
+                        </div>
+                        <hr>
+                        <div>
+                            <h1>Images</h1>
+                            <ul class="js-ul">
+                                <li><button id="color-option" onclick="changeBackroundImageOne()"><img src="images/sidebar-1.jpg" height="40px" width="10px" alt=""></button>
+                                </li>
+                                <li><button id="color-option" onclick="changeBackroundImageTwo()"><img src="images/sidebar-2.jpg" height="40px" width="10px" alt=""></button>
+                                </li>
+                                <li><button id="color-option" onclick="changeBackroundImageThree()"><img src="images/download.jpg" height="40px" width="10px" alt=""></button>
+                                </li>
+                                <li><button id="color-option" onclick="changeBackroundImageFour()"><img src="images/images.jpg" height="40px" width="10px" alt=""></button>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="circle"><img src="images/7122423_vertical_3 dots_dots_icon (1).png" alt=""></div>
+                <h2>Dashboard</h2>
+            </div>
+            <div class="header-right">
+                <ul>
+                    <li>
+                        <input type="text" placeholder="Search" id="search">
+                        <div class="circle"><img src="images/3844432_magnifier_search_zoom_icon (1).png" alt="">
+                        </div>
+                    </li>
+                    <li><img src="images/1564534_customer_man_user_account_profile_icon (1).png" alt=""></li>
+                    <li>
+                        <span class="notify-num">3</span>
+                        <div class="notify">
+                            <img id="notify-js" src="images/211694_bell_icon (1).png" alt="">
+                            <div class="notification">
+                                <ul id="collapsed_notification">
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="profile"><img src="images/dashboard.png" alt=""></li>
+                </ul>
+                <div class="hamburger"><img src="images/dashboard.png" alt=""></div>
+            </div>
+        </header>
+        <div class="allsections">
+
+            <div class="sectionone">
+                <div class="sales">
+                    <img src="images/211846_world_icon.png" width="75px">
+                    <p>Global Sales By Top locations</p>
+                </div>
+                <section class="maps">
+
+                    <ul>
+                        <li><img src="images/download.png" width="15px">USA <span class="Country">2.920 53.23%</span>
+                        </li>
+                        <hr>
+                        <li><img src="images/download (1).png" width="15px">Germany <span class="Country">2.920
+                                53.23%</span></li>
+                        <hr>
+                        <li><img src="images/download (2).png" width="15px">Australia<span class="Country"> 2.920
+                                53.23%</span></li>
+                        <hr>
+                        <li><img src="images/download (3).png" width="15px">Uk <span class="Country">2.920 53.23%</span>
+                        </li>
+                        <hr>
+                        <li><img src="images/download.png" width="15px">Romania <span class="Country">2.920
+                                53.23%</span></li>
+                        <hr>
+                        <li><img src="images/Flag_of_Brazil.svg.png" width="15px">Brazil <span class="Country">2.920
+                                53.23%</span></li>
+
+                    </ul>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d387194.0622732493!2d-74.30932777004284!3d40.69701928616164!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2s!4v1734200314955!5m2!1sen!2s"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            </section>
+            <section class="statistics">
+                <div class="couch">
+                    <img class="cimg" src="images/couch-64.webp" height="79px" width="75px">
+
+                    <h4><img src="images/4781855_alert_attention_caution_danger_error_icon.png" width="15px" alt="">Get
+                        More Space</h4>
+                    <ul>
+                        <li>Bookings</li>
+                        <li>184</li>
+                    </ul>
+
+                </div>
+                <div class="ranking">
+                    <img class="rimg" src="images/5378845_diagram_games_graph_ranking_report_icon.png" height="79px"
+                        width="75px">
+                    <h4><img src="images/622394_lable_shopping_tag_ecommerce_price_icon.png" width="15px" alt="">Tracked
+                        from google anylystics</h4>
+                    <ul>
+                        <li>Website Visits</li>
+                        <li>75.521</li>
+                    </ul>
+                </div>
+                <div class="shop">
+                    <img class="simg" src="images/115799_shop_icon.png" height="79px" width="75px">
+                    <h4><img src="images/2849811_refresh_arrows_multimedia_media_icon.png" width="15px">Just Updated
+                    </h4>
+                    <ul>
+                        <li>Revenue</li>
+                        <li>$34.245</li>
+                    </ul>
+
+                </div>
+                <div class="globe">
+                    <img class="gimg" src="images/211846_world_icon.png" height="79px" width="75px">
+                    <h4><img src="images/calander.png" width="15px">Last 24 Hours</h4>
+                    <ul>
+                        <li>followers</li>
+                        <li>+245</li>
+                    </ul>
+
+                </div>
+            </section>
+            <section>
+                <h1 class="Manage">Manage Listings</h1>
+                <div class="Listing">
+                    <div class="first">
+                        <div class="show1">
+                            <img class="apartment" src="images/card-1.jpeg" alt="" width="350px">
+                            <div class="dontshow1">
+                                <img src="images/listing.png" width="20px" alt="">
+                                <img src="images/check.png" width="20px" alt="">
+                                <img id="deletelistOne" src="images/xicon.png" width="20px" alt="">
+                            </div>
+                        </div>
+                        <h1 class="k">Cozy five star apartment</h1>
+                        <p class="d">Lorem, ipsum dolor sit amet
+                            consectetur adipisicing elit.
+                            Ratione at minus a pariatur </p>
+                        <hr>
+                        <ul class="spain">
+                            <li>$899/night</li>
+                            <li class="d"><img src="images/location.png" width="17px">Barcelona,Spain</li>
+                        </ul>
+                    </div>
+                    <div class="second">
+                        <div class="show2">
+                            <img class="apartment" src="images/card-2.jpeg" alt="" width="350px">
+                            <div class="dontshow2">
+                                <img src="images/listing.png" width="20px" alt="">
+                                <img src="images/check.png" width="20px" alt="">
+                                <img id="deletelistTwo" src="images/xicon.png" width="20px" alt="">
+                            </div>
+                        </div>
+                        <h1 class="o">Office studio</h1>
+                        <p class="e">Nisi sapiente ab sunt c
+                            Consequatur rem voluptas
+                            Lorem ipsum dol
+                            lore.mlore </p>
+
+                        <hr>
+                        <ul class="uk">
+                            <li>$1.19/night</li>
+                            <li class="d"><img src="images/location.png" width="17px">London,UK</li>
+                        </ul>
+                    </div>
+                    <div class="third">
+
+                        <div class="show3">
+                            <img class="apartment" src="images/card-3.jpeg" alt="" width="350px">
+                            <div class="dontshow3">
+                                <img src="images/listing.png" width="20px" alt="">
+                                <img src="images/check.png" width="20px" alt="">
+                                <img id="deletelistThree" src="images/xicon.png" width="20px" alt="">
+                            </div>
+                        </div>
+                        <h1 class="l">Beautiful Studio</h1>
+                        <p class="f">Lorem ipsum dolor, sit amet c
+                            soluta libero praesentium
+                            voluptas aperiam explicabo
+                        </p>
+                        <hr>
+                        <ul class="Italy">
+                            <li>$459/night</li>
+                            <li class="d"><img src="images/location.png" width="17px">Milan,Italy</li>
+                        </ul>
+                    </div>
+
+                </div>
+
+            </section>
+
+        </div>
+        <footer>
+            <hr>
+            <div class="about">
+
+                <div class="header-left2">
+                    <ul>
+                        <li>Home</li>
+                        <li>Company</li>
+                        <li>Portofolio</li>
+                        <li>Blog</li>
+                    </ul>
+                </div>
+                <div class="header-right2">
+                    <p class="d p"><img src="images/copyright.png" width="20px" alt=""> Jhon Doe 2023</p>
+                </div>
+            </div>
+        </footer>
+    </main>
+
+    <script src="JS/sidebar.js"></script>
+    <script src="JS/setting.js"></script>
+    <script src="JS/listing.js"></script>
+
+</body>
+
+</html>
